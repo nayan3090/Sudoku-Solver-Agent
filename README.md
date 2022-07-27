@@ -1,4 +1,4 @@
-# AI agent built using constraint propagation and search to solve any Sudoku puzzle
+# AI agent to solve any Sudoku puzzle
 
 This repository is a course project from [Udacity's Artifical Intelligence Nanodegree](https://www.udacity.com/course/ai-artificial-intelligence-nanodegree--nd898).
 
