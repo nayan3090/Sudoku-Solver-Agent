@@ -4,14 +4,14 @@ This repository is a course project from [Udacity's Artifical Intelligence Nanod
 
 In this project, an intelligent agent is built for solving any Sudoku puzzle using the following AI techniques:
 
-### Constraint Propagation
+### 1. Constraint Propagation
 When trying to solve the puzzle, local constraints for each square are identified. These constraints help narrow the possibilities for the answer and thus is very helpful for solving the puzzle. Three strategies are used for constraint propagation in this puzzle and to get closer to the solution:
 1. **Elimination**: The elimination strategy says that if a box has a value assigned, then none of the peers of that box can have the same value.
 2. **Only choice**: The only choice strategy says that if only one box in a unit allows a certain digit, then that box must be assigned that digit.
 3. **Naked twins**: The naked twins strategy says that if you have two or more unallocated boxes in a unit and there are only two digits that can go in those two boxes, then those two digits can be eliminated from the possible assignments of all other boxes in the same unit.
 These three strategies are utilized to repeatedly apply simple constraints to iteratively narrow down the search space of possible solutions.
 
-### Search
+### 2. Search
 In the process of solving the Sudoku puzzle, there are many instances at which there can be two or more possibilities for the value that needs to go in the square. In order to find the correct value that will go in any square, the agent takes into account all the possibilities after all the local constraints are applied. This creates a whole tree of possibilities and the agent is tasked to find a way to traverse the tree until the solution to the puzzle is obtained. The search algorithm used in this project is `Depth-first search`.
 
 
