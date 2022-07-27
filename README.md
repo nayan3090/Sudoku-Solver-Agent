@@ -28,14 +28,14 @@ In the process of solving the Sudoku puzzle, there are many instances at which t
 
 3. Activate the environment by running the following:
     
-    * *// For  conda 4.6 and later versions on Linux/macOS/Windows, use*
-    `$ conda activate aind`
+    * *For  conda 4.6 and later versions on Linux/macOS/Windows, use*
+        `$ conda activate aind`
 
-    * *// For conda versions prior to 4.6 on Linux/macOS, use*
-    `$ source activate aind`
-    
-    * *// For conda versions prior to 4.6 on Windows, use* 
-    `$ activate aind`
+    * *For conda versions prior to 4.6 on Linux/macOS, use*
+        `$ source activate aind`
+
+    * *For conda versions prior to 4.6 on Windows, use* 
+        `$ activate aind`
 
 
 4. You can run a small set of test cases using the local test suite. 
