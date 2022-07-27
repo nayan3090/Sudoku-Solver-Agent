@@ -28,13 +28,16 @@ In the process of solving the Sudoku puzzle, there are many instances at which t
 
 3. Activate the environment by running the following:
     
-    * *For  conda 4.6 and later versions on Linux/macOS/Windows, use*
+    * *For  conda 4.6 and later versions on Linux/macOS/Windows, use:*
+
         `$ conda activate aind`
 
-    * *For conda versions prior to 4.6 on Linux/macOS, use*
+    * *For conda versions prior to 4.6 on Linux/macOS, use:*
+
         `$ source activate aind`
 
-    * *For conda versions prior to 4.6 on Windows, use* 
+    * *For conda versions prior to 4.6 on Windows, use:*
+
         `$ activate aind`
 
 
